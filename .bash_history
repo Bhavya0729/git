@@ -117,3 +117,43 @@ git log --oneline
 git help rebase
 git
 jenkins --version
+sudo apt-get update 
+git status
+git log --oneline
+touch w1.txt
+touch w2.txt
+git add .
+git commit -m "wadd"
+touch e1.txt
+touch e2.txt
+touch e3.txt
+git add .
+git commit -m "eadd"
+git log --oneline
+touch r1.txt
+touch r2.txt
+git  add .
+git commit -m "radd"
+touch y1.txt
+touch y2.txt
+git add .
+git status
+git commit -m "yadd"
+git log --oneline
+git status
+git log --oneline
+touch i1.txt
+touch i2.txt
+git add .
+git status
+git commit -m "iadd"
+git log --oneline
+git status
+git log --oneline
+touch s1.txt
+touch s2.txt
+git add .
+git commit -m "sadd"
+touch n1.txt
+git add .
+git commit -m "nadd"
