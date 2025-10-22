@@ -83,3 +83,37 @@ sudo apt install default-jdk
 javac --version
 cat /var/lib/jenkins/secrets/initialAdminPassword
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo apt-get update
+git --version
+git init
+git status
+git log --oneline
+touch j1.txt
+touch j2.txt
+git sttaus
+git status
+git add .
+git status
+git commit -m "jadd"
+touch k1.txt
+touch k2.txt
+git add .
+git commit -m "kadd"
+git log --oneline
+git tag v5.2 kadd
+git tag v5.2 1aa76cd
+git log --oneline
+git tag -a v2.4 "super" 04c2554
+git tag -a v2.4 super 04c2554
+git help
+git help annotaed tag
+git help annotated
+git history
+history
+git tag -a testv.01 -m "heavy" 6e9ec5d 
+git tag -a v1 -j "super" 04c2554
+git tag -a v1 -m "super" 04c2554
+git log --oneline
+git help rebase
+git
+jenkins --version
